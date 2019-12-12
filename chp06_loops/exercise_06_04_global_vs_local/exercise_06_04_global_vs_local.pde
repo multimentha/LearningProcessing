@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Exercise 6-4: Predict the results of the following two 
+// Exercise 6-4: Predict the results of the following two
 // programs. Test your theory by running them.
 
 /*
@@ -17,10 +17,10 @@ void draw() {
   count = count + 1;
   background(count);
 }
-________
+// ________
+*/
 
-
-
+/*
 //SKETCH #2: Local "count"
 
 void setup() {
@@ -29,8 +29,8 @@ void setup() {
 
 void draw() {
   int count = 0;
-  count = count = 1;
+  count = count + 1;
   background(count);
 }
-________
+// ________
 */
